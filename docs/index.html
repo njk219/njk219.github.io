@@ -5,10 +5,82 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .banner-image {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 128px;
+    }
+    .thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    object-fit: cover;
+    }
+    body {
+      background-color: #004643;
+      justify-content: center;
+    }
+
+    .name {
+      color: #fffffe;
+    }
+
+    .social-icons a {
+      color: #fffffe;
+      text-decoration: none;
+    }
+
+    .link {
+      background-color: #f9bc60;
+      display: flex;
+      align-items: center;
+    }
+
+    .link a {
+      color: #001e1d;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+    .items {
+      display: flex;
+      flex-direction:column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+    *{border: thin red solid;}
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+
+  </style>
+
+
+
 </head>
 <body>
   <div class="banner">
-    <img src="DSC03940.jpg" alt="Noah Katz headshot">
+    <img src="DSC03940.jpg" alt="Noah Katz headshot" class="banner-image">
   </div>
   
   <div class="name">
@@ -30,23 +102,23 @@
   </div>
   
   <div class="link">
-    <img
-      src="Alta_logo_dropshadow.jpg">
+    <img class="thumbnail"
+      src="/thumbnails/Alta_logo_dropshadow.jpg">
   
     <a target="_blank" href="https://www.alta.com/">The Greatest Snow on Earth
       — Alta, Utah</a>
   </div>
   
   <div class="link">
-    <img src="uac_logo.svg">
+    <img class="thumbnail" src="/thumbnails/uac_logo.svg">
   
     <a target="_blank"
       href="https://utahavalanchecenter.org/forecast/salt-lake">Utah Avalanche Center Forecast</a>
   </div>
   
   <div class="link">
-    <img
-      src="Banshee.png">
+    <img class="thumbnail"
+      src="/thumbnails/Banshee.png">
   
     <a target="_blank" href="https://www.bansheebikes.com/">A
       Banshee Bikes</a>
