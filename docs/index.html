@@ -9,6 +9,9 @@
     body {
       padding-top: 40px;
       padding-bottom: 40px;
+      background-color: #004643;
+      display: flex;
+      justify-content: center;
     }
     .banner-image {
     width: 128px;
@@ -22,13 +25,10 @@
     border-radius: 48px;
     object-fit: cover;
     }
-    body {
-      background-color: #004643;
-      justify-content: center;
-    }
-
     .name {
       color: #fffffe;
+      display: flex;
+      justify-content: center;
     }
 
     .social-icons a {
@@ -40,6 +40,7 @@
       background-color: #f9bc60;
       display: flex;
       align-items: center;
+      padding: 5px;
     }
 
     .link a {
@@ -50,18 +51,11 @@
     }
     .items {
       display: flex;
-      flex-direction:column;
+      flex-direction: column;
       gap: 30px;
       max-width: 640px;
       flex-grow: 1;
     }
-    *{border: thin red solid;}
-    .name {
-      color: #fffffe;
-      display: flex;
-      justify-content: center;
-    }
-
     .banner {
       display: flex;
       justify-content: center;
@@ -79,49 +73,51 @@
 
 </head>
 <body>
-  <div class="banner">
-    <img src="DSC03940.jpg" alt="Noah Katz headshot" class="banner-image">
-  </div>
-  
-  <div class="name">
-    Noah Katz
-  </div>
-  
-  <div class="social-icons">
-    <a href="https://github.com/njk219" target="_blank">
-      GitHub
-    </a>
-  
-    <a href="https://www.linkedin.com/in/noahjacobkatz/" target="_blank">
-      LinkedIn
-    </a>
-  
-    <a href="https://instagram.com/noahbkatz?igshid=YmMyMTA2M2Y=" target="_blank">
-      Instagram
-    </a>
-  </div>
-  
-  <div class="link">
-    <img class="thumbnail"
-      src="/thumbnails/Alta_logo_dropshadow.jpg">
-  
-    <a target="_blank" href="https://www.alta.com/">The Greatest Snow on Earth
-      — Alta, Utah</a>
-  </div>
-  
-  <div class="link">
-    <img class="thumbnail" src="/thumbnails/uac_logo.svg">
-  
-    <a target="_blank"
-      href="https://utahavalanchecenter.org/forecast/salt-lake">Utah Avalanche Center Forecast</a>
-  </div>
-  
-  <div class="link">
-    <img class="thumbnail"
-      src="/thumbnails/Banshee.png">
-  
-    <a target="_blank" href="https://www.bansheebikes.com/">A
-      Banshee Bikes</a>
+  <div class="items">
+    <div class="banner">
+      <img src="DSC03940.jpg" alt="Noah Katz headshot" class="banner-image">
+    </div>
+    
+    <div class="name">
+      Noah Katz
+    </div>
+    
+    <div class="social-icons">
+      <a href="https://github.com/njk219" target="_blank">
+        GitHub
+      </a>
+    
+      <a href="https://www.linkedin.com/in/noahjacobkatz/" target="_blank">
+        LinkedIn
+      </a>
+    
+      <a href="https://instagram.com/noahbkatz?igshid=YmMyMTA2M2Y=" target="_blank">
+        Instagram
+      </a>
+    </div>
+    
+    <div class="link">
+      <img class="thumbnail"
+        src="/thumbnails/Alta_logo_dropshadow.jpg">
+    
+      <a target="_blank" href="https://www.alta.com/">The Greatest Snow on Earth
+        — Alta, Utah</a>
+    </div>
+    
+    <div class="link">
+      <img class="thumbnail" src="/thumbnails/uac_logo.svg">
+    
+      <a target="_blank"
+        href="https://utahavalanchecenter.org/forecast/salt-lake">Utah Avalanche Center Forecast</a>
+    </div>
+    
+    <div class="link">
+      <img class="thumbnail"
+        src="/thumbnails/Banshee.png">
+    
+      <a target="_blank" href="https://www.bansheebikes.com/">A
+        Banshee Bikes</a>
+    </div>
   </div>
 </body>
 </html>
